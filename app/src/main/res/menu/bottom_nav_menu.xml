@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/cart_nav"
+        android:enabled="true"
+        android:icon="@drawable/baseline_add_shopping_cart_white_18"
+        android:title="Cart"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/camera_nav"
+        android:enabled="true"
+        android:icon="@drawable/baseline_qr_code_scanner_white_18"
+        android:title="Scan"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/profile_nav"
+        android:enabled="true"
+        android:icon="@drawable/baseline_perm_identity_white_18"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+</menu>
